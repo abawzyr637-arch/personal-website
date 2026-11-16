@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <!-- (Home) -->
+        <div id="home" class="section-box">
+            <h1>Welcome to My Personal Website</h1>
+            <img src="profile.jpeg" alt="Personal Profile Image" class="profile-img">
+            <p>
+                Hello! My name is <span class="highlight">Ahmed Salah Ahmed Bin Nhaim</span>. Welcome to my personal webpage created for the Web Programming course. Here you can learn more about my academic background, skills, and interests.
+            </p>
+        </div>
+
+        <!-- (About Me) -->
+        <div id="about" class="section-box">
+            <h2>About Me</h2>
+            <h3>Personal Background</h3>
+            <p>
+                I am an undergraduate student majoring in <span class="highlight">Computer Science / IT</span>. I enjoy learning how websites work and building simple, clean web pages using HTML and CSS.
+            </p>
+            <h4>My Academic Goal</h4>
+            <p>
+                My current goal is to improve my programming skills, understand web development fundamentals, and build useful projects during my university studies.
+            </p>
+        </div>
+
+        <!-- (Education) -->
+        <div id="education" class="section-box">
+            <h2>Educational Background</h2>
+            <p>Below is a summary of my educational qualifications and academic journey:</p>
+            <table>
+                <tr>
+                    <th>Degree / Certificate</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>Status / Grade</th>
+                </tr>
+                <tr>
+                    <td>Bachelor of Information technology</td>
+                    <td>AL-Rayyan University</td>
+                    <td>2024 - Present</td>
+                    <td>In Progress</td>
+                </tr>
+                <tr>
+                    <td>High School Certificate</td>
+                    <td>Hura Higt School</td>
+                    <td>2021 - 2022</td>
+                    <td>Graduated</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- (Skills) -->
+        <div id="skills" class="section-box">
+            <h2>My Skills</h2>
+            <h5>Technical &amp; Computer Skills </h5>
+             <ul>
+                <li>HTML & CSS (Building and styling simple web pages)</li>
+                <li>Basic Programming (C++ and Python fundamentals)</li>
+                <li>Database Basics (Understanding SQL and tables)</li>
+                <li>Microsoft Office (Word, Excel, and PowerPoint)</li>
+                <li>Problem Solving and Teamwork</li>
+             </ul>
+        </div>
+
+        <!--(Hobbies)-->
+        <div id="hobbies" class="section-box">
+            <h2>Hobbies &amp; Interests</h2>
+            <h5>My Favorite Activities </h5>
+            <ol>
+                <li>Reading technology articles and books</li>
+                <li>Practicing coding and solving simple problems</li>
+                <li>Playing football and watching sports</li>
+                <li>Photography and traveling</li>
+            </ol>
+        </div>
+
+        <!-- (Contact Form) -->
+        <div id="contact" class="section-box">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch with me, please fill out the form below:</p>
+            <form action="#contact" method="get">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" placeholder="Enter message subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message here..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- h6 -->
+    <div class="footer">
+        <h6>Assignment 1 - Web Programming Course | Created with HTML &amp; CSS</h6>
+    </div>
+
+</body>
+</html>
